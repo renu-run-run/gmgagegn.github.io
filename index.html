@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Glowing Gradient Glassmorphism
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            
+            <span></span>
+            <div class="content">
+                <h1> Renuka Choudhary </h1>
+                <h2>hi there!!!</h2>
+
+            <p id="p1"></p>
+                
+            
+                
+                <button type="button" onclick="GoodMorning()">Good Morning.</button>
+                <button type="button" onclick="Goodafternoon()">Good Afternoon.</button>
+                <button type="button" onclick="Goodevening()">Good Evening.</button>
+                <button type="button" onclick="Goodnight()">Good Night.</button>
+
+
+            </div>
+            
+        </div>
+    </div>
+    <script>
+        function GoodMorning(){
+            var temp = document.getElementById('p1')
+            temp.innerText = "Good Morning. ";
+        }
+        function Goodafternoon(){
+            var temp = document.getElementById('p1')
+            temp.innerText = "Good Afternoon.";
+        }
+        function Goodevening(){
+            var temp = document.getElementById('p1')
+            temp.innerText = "Good Evening. ";
+        }
+        function Goodnight(){
+            var temp = document.getElementById('p1')
+            temp.innerText = "Good Night. ";
+        }
+    </script>
+</body>
+
+</html>
